@@ -164,7 +164,8 @@ func TailCall10[
 }
 
 func TailCall11[
-    O any, I1 any, I2 any, I3 any, I4 any, I5 any, I6 any, I7 any, I8 any, I9 any, I10 any, I11 any] (
+    O any, I1 any, I2 any, I3 any, I4 any, I5 any, I6 any, I7 any, I8 any,
+    I9 any, I10 any, I11 any] (
     f func(i1 I1, i2 I2, i3 I3, i4 I4, i5 I5, i6 I6, i7 I7, i8 I8,
     i9 I9, i10 I10, i11 I11) TailRec[O],
     i1 I1, i2 I2, i3 I3, i4 I4, i5 I5, i6 I6, i7 I7, i8 I8,
