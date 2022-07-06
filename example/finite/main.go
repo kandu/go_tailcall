@@ -9,7 +9,7 @@ func a(v int64) TailRec[int64] {
     fmt.Printf("a %d\n", v)
 
     var s= strconv.FormatInt(v, 10)
-    return TailCall(b,s)
+    return TailCall(b, s)
 }
 
 func b(s string) TailRec[int64] {
