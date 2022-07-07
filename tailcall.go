@@ -361,8 +361,8 @@ func TailCall20[
     i17 I17, i18 I18, i19 I19, i20 I20) TailRec[O] {
     var g= func () TailRec[O] {
         return f(i1, i2, i3, i4, i5, i6, i7, i8,
-        i9, i10, i11, i12, i13, i14, i15, i16,
-        i17, i18, i19, i20)
+            i9, i10, i11, i12, i13, i14, i15, i16,
+            i17, i18, i19, i20)
     }
     return TailRec[O] {
         next: g,
@@ -383,8 +383,8 @@ func TailCall21[
     i17 I17, i18 I18, i19 I19, i20 I20, i21 I21) TailRec[O] {
     var g= func () TailRec[O] {
         return f(i1, i2, i3, i4, i5, i6, i7, i8,
-        i9, i10, i11, i12, i13, i14, i15, i16,
-        i17, i18, i19, i20, i21)
+            i9, i10, i11, i12, i13, i14, i15, i16,
+            i17, i18, i19, i20, i21)
     }
     return TailRec[O] {
         next: g,
@@ -405,8 +405,8 @@ func TailCall22[
     i17 I17, i18 I18, i19 I19, i20 I20, i21 I21, i22 I22) TailRec[O] {
     var g= func () TailRec[O] {
         return f(i1, i2, i3, i4, i5, i6, i7, i8,
-        i9, i10, i11, i12, i13, i14, i15, i16,
-        i17, i18, i19, i20, i21, i22)
+            i9, i10, i11, i12, i13, i14, i15, i16,
+            i17, i18, i19, i20, i21, i22)
     }
     return TailRec[O] {
         next: g,
@@ -427,8 +427,8 @@ func TailCall23[
     i17 I17, i18 I18, i19 I19, i20 I20, i21 I21, i22 I22, i23 I23) TailRec[O] {
     var g= func () TailRec[O] {
         return f(i1, i2, i3, i4, i5, i6, i7, i8,
-        i9, i10, i11, i12, i13, i14, i15, i16,
-        i17, i18, i19, i20, i21, i22, i23)
+            i9, i10, i11, i12, i13, i14, i15, i16,
+            i17, i18, i19, i20, i21, i22, i23)
     }
     return TailRec[O] {
         next: g,
@@ -449,8 +449,8 @@ func TailCall24[
     i17 I17, i18 I18, i19 I19, i20 I20, i21 I21, i22 I22, i23 I23, i24 I24) TailRec[O] {
     var g= func () TailRec[O] {
         return f(i1, i2, i3, i4, i5, i6, i7, i8,
-        i9, i10, i11, i12, i13, i14, i15, i16,
-        i17, i18, i19, i20, i21, i22, i23, i24)
+            i9, i10, i11, i12, i13, i14, i15, i16,
+            i17, i18, i19, i20, i21, i22, i23, i24)
     }
     return TailRec[O] {
         next: g,
