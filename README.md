@@ -12,7 +12,7 @@ The result of evaluating a tailcalling function can be retrieved from using func
 1. To install go\_tailcall module, you can use the below command
 
 ```sh
-go get -u github.com/kandu/go_tailcall@main
+go get -u github.com/kandu/go_tailcall@0.2
 ```
 
 2. Import it in your code:
