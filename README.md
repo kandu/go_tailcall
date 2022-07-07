@@ -50,8 +50,9 @@ func main() {
     var r, err= TailStart(a(0))
     if err != nil {
         log.Fatal(err)
+    } else {
+      fmt.Printf("a(): %d\n", r)
     }
-    fmt.Printf("a(): %d\n", r)
 }
 ```
 
