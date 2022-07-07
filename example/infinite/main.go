@@ -1,6 +1,6 @@
 package main
 
-import . "github.com/kandu/go_tailcall"
+import . "github.com/kandu/go_tailcall/tailcall"
 import "fmt"
 import "strconv"
 
