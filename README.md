@@ -9,7 +9,7 @@ The result of evaluating a tailcalling function can be retrieved from using func
 ## Installation
 
 
-To install go\_tailcall module, you can use the below command
+To install go\_tailcall module, you can use the command below
 
 ```sh
 go get -u github.com/kandu/go_tailcall@0.3
